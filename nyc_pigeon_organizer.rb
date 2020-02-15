@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(array)
       end
     end
   end
-end 
+  
+  x = final 
 
 
