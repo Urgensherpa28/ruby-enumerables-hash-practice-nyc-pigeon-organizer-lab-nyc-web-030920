@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(array)
   final = {}
+  
   array.each do |k, v|
     v.each do |one, two|
       two.each do |name|
@@ -12,7 +13,7 @@ def nyc_pigeon_organizer(array)
   array[:color].each do |bird_color, name| 
     name.each do |bird_name|
       x.each do |item|
-        if bird_name == item 
+        if bird_name === item 
           final[item][:color] << bird_color.to_s 
         end
       end
@@ -22,7 +23,7 @@ def nyc_pigeon_organizer(array)
   array[:gender].each do |gender, type|
     type.each do |bird_name|
       x.each do |item|
-        if bird_name == item
+        if bird_name === item
           final[item][:gender] << gender.to_s 
         end 
       end
@@ -32,7 +33,7 @@ def nyc_pigeon_organizer(array)
   array[:lives].each do |location, name|
     name.each do |bird_name|
       x.each do |item|
-        if bird_name == item 
+        if bird_name === item 
           final[item][:lives] << location
         end
       end
