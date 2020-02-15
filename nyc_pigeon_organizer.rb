@@ -9,6 +9,6 @@ def nyc_pigeon_organizer(array)
   end
   
   x = final.keys
-  array[:color].each do |bird_color, 
+  array[:color].each do |bird_color, name| 
 
 
