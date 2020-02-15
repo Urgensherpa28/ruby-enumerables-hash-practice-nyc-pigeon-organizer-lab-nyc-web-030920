@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(array)
     end
   end
   
-  x = final.keys 
+  x = final.keys
+  array
 
 
