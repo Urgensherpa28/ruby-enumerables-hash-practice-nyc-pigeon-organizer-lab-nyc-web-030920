@@ -13,5 +13,6 @@ def nyc_pigeon_organizer(array)
     name.each do |bird_name|
       x.each do |item|
         if bird_name == item 
+          
 
 
