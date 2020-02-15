@@ -19,6 +19,6 @@ def nyc_pigeon_organizer(array)
     end
   end
   
-  
+  array[:gender].each do |bird_gender, 
 
 
