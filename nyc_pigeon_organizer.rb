@@ -21,6 +21,14 @@ def nyc_pigeon_organizer(array)
   
   array[:gender].each do |bird_gender, type|
     type.each do |bird_gender|
-      x.each do |
+      x.each do |item|
+        if bird_gender == item
+          final[item][:gender] << bird_gender.to_s 
+        end 
+      end
+    end 
+  end 
+  
+  array[:lives].each do |bird_lives, 
 
 
