@@ -14,5 +14,9 @@ def nyc_pigeon_organizer(array)
       x.each do |item|
         if bird_name == item 
           final[item][:gender] << gender.to_s 
+        end
+      end
+    end
+  end
 
 
