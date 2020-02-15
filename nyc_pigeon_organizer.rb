@@ -40,7 +40,7 @@ def nyc_pigeon_organizer(array)
     end
   end
   
-  return final
+  final
 end
 
 
