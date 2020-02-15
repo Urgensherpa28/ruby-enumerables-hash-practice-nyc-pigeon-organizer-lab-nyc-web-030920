@@ -3,5 +3,8 @@ def nyc_pigeon_organizer(array)
   array.each do |k, v|
     v.each do |one, two|
       two.each do |name|
-        final[name] = { :color 
+        final[name] = { :color => [], :gender => [], :lives => [] }
+      end
+    end
+  end
 end 
