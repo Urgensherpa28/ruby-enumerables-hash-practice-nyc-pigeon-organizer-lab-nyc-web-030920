@@ -9,6 +9,6 @@ def nyc_pigeon_organizer(array)
   end
   
   x = final.keys
-  array
+  array[:color].each do 
 
 
